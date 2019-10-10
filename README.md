@@ -8,3 +8,4 @@
 * [Flat Remix](https://github.com/daniruiz/flat-remix) - Icon Theme
 * [rofi](https://github.com/davatorium/rofi) - Launcher
 * Custom GTK Theme - GTK 2 DONE. TODO GTK3 assets and colors.
+* Conky - already included in Manjaro i3 ISO
