@@ -39,18 +39,18 @@ cpu_usage {
 }
 
 cpu_temperature 0 {
-	format = " %degrees °C"
+	format = " %degrees °C"
 	path = "/sys/class/hwmon/hwmon0/temp1_input"
 }
 
 disk "/" {
         # format = "hdd%avail"
-        format = "⛁ %used/%total"
+        format = " %used/%total"
 }
 
 disk "/home" {
         # format = " hdd %avail "
-        format = " %used/%total"
+        format = " %used/%total"
 }
 
 ethernet _first_ {
@@ -60,7 +60,7 @@ ethernet _first_ {
 }
 
 wireless _first_ {
-	format_up = "直 %essid"
+	format_up = " %essid"
 	format_down = "睊 no wifi"
 }
 
@@ -73,7 +73,7 @@ battery all {
         last_full_capacity = true
         integer_battery_capacity = true
         #status_chr = ""
-        status_chr = "⚡"
+        status_chr = ""
         # status_bat = "bat"
         #status_bat = "☉"
         status_bat = ""
